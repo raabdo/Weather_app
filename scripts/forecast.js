@@ -1,4 +1,6 @@
-const key = "cSossduT0qk7qZV9aKN63zJl7FlkOrNy";
+// Create an account at developer.accuweather.com and create a new free app you'll get the key {key}
+// copy the key here so you can use the API to fetch data 
+const key = "{key}";
 
 // City information
 const getCity = async(city) => {
@@ -12,7 +14,7 @@ const getCity = async(city) => {
     return data[0];
 
 };
-
+// Weather information 
 const getWeather = async(id) => {
 
     const base = 'http://dataservice.accuweather.com/currentconditions/v1/';
